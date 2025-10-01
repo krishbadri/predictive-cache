@@ -1,0 +1,10 @@
+^C:\USERS\KPB20\ONEDRIVE\DESKTOP\PREDICTIVE-CACHE\CMAKELISTS.TXT
+setlocal
+C:\Users\kpb20\miniconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/kpb20/OneDrive/Desktop/predictive-cache -BC:/Users/kpb20/OneDrive/Desktop/predictive-cache/build --check-stamp-file C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kpb20\OneDrive\Desktop\predictive-cache\src\bench.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kpb20\OneDrive\Desktop\predictive-cache\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EB42C8EE-5776-3614-A65B-9D2C1B7605BF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

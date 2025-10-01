@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kpb20\OneDrive\Desktop\predictive-cache\build\_deps\benchmark-subbuild\CMakeFiles\6405944a27ee6156b142d58dc11781a2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C2240612-F09E-3E5C-B688-53889386F93C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

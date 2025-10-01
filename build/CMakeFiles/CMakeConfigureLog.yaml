@@ -1,0 +1,809 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 9/28/2025 3:13:55 PM.
+      
+      Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:04.04
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 9/28/2025 3:14:01 PM.
+      
+      Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.35
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/3.31.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-u3lxxc"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-u3lxxc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-u3lxxc'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3f460.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/28/2025 3:14:06 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3lxxc\\cmTC_3f460.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3f460.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3lxxc\\Debug\\".
+          Creating directory "cmTC_3f460.dir\\Debug\\cmTC_3f460.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3f460.dir\\Debug\\cmTC_3f460.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3f460.dir\\Debug\\cmTC_3f460.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f460.dir\\Debug\\\\" /Fd"cmTC_3f460.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\miniconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f460.dir\\Debug\\\\" /Fd"cmTC_3f460.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\miniconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3lxxc\\Debug\\cmTC_3f460.exe" /INCREMENTAL /ILK:"cmTC_3f460.dir\\Debug\\cmTC_3f460.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-u3lxxc/Debug/cmTC_3f460.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-u3lxxc/Debug/cmTC_3f460.lib" /MACHINE:X64  /machine:x64 cmTC_3f460.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3f460.vcxproj -> C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3lxxc\\Debug\\cmTC_3f460.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3f460.dir\\Debug\\cmTC_3f460.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3f460.dir\\Debug\\cmTC_3f460.tlog\\cmTC_3f460.lastbuildstate".
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3lxxc\\cmTC_3f460.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.12
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-dw7mmf"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-dw7mmf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-dw7mmf'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_144b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/28/2025 3:14:11 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw7mmf\\cmTC_144b9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_144b9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw7mmf\\Debug\\".
+          Creating directory "cmTC_144b9.dir\\Debug\\cmTC_144b9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_144b9.dir\\Debug\\cmTC_144b9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_144b9.dir\\Debug\\cmTC_144b9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_144b9.dir\\Debug\\\\" /Fd"cmTC_144b9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\miniconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_144b9.dir\\Debug\\\\" /Fd"cmTC_144b9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\miniconda3\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw7mmf\\Debug\\cmTC_144b9.exe" /INCREMENTAL /ILK:"cmTC_144b9.dir\\Debug\\cmTC_144b9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-dw7mmf/Debug/cmTC_144b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-dw7mmf/Debug/cmTC_144b9.lib" /MACHINE:X64  /machine:x64 cmTC_144b9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_144b9.vcxproj -> C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw7mmf\\Debug\\cmTC_144b9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_144b9.dir\\Debug\\cmTC_144b9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_144b9.dir\\Debug\\cmTC_144b9.tlog\\cmTC_144b9.lastbuildstate".
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw7mmf\\cmTC_144b9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.23
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-hfk2kt"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-hfk2kt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-hfk2kt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5c69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:07 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\cmTC_e5c69.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e5c69.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\Debug\\".
+          Creating directory "cmTC_e5c69.dir\\Debug\\cmTC_e5c69.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e5c69.dir\\Debug\\cmTC_e5c69.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e5c69.dir\\Debug\\cmTC_e5c69.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=shm_open /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5c69.dir\\Debug\\\\" /Fd"cmTC_e5c69.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=shm_open /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5c69.dir\\Debug\\\\" /Fd"cmTC_e5c69.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\Debug\\cmTC_e5c69.exe" /INCREMENTAL /ILK:"cmTC_e5c69.dir\\Debug\\cmTC_e5c69.ilk" /NOLOGO rt.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-hfk2kt/Debug/cmTC_e5c69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-hfk2kt/Debug/cmTC_e5c69.lib" /MACHINE:X64  /machine:x64 cmTC_e5c69.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\cmTC_e5c69.vcxproj]
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\cmTC_e5c69.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\cmTC_e5c69.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfk2kt\\cmTC_e5c69.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.39
+        
+      exitCode: 1
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:297 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9de0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:09 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_9de0d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9de0d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_9de0d.dir\\Debug\\cmTC_9de0d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9de0d.dir\\Debug\\cmTC_9de0d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9de0d.dir\\Debug\\cmTC_9de0d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9de0d.dir\\Debug\\\\" /Fd"cmTC_9de0d.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\std_regex.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9de0d.dir\\Debug\\\\" /Fd"cmTC_9de0d.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\std_regex.cpp"
+          std_regex.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_9de0d.exe" /INCREMENTAL /ILK:"cmTC_9de0d.dir\\Debug\\cmTC_9de0d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp/Debug/cmTC_9de0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp/Debug/cmTC_9de0d.lib" /MACHINE:X64  /machine:x64 cmTC_9de0d.dir\\Debug\\std_regex.obj
+          cmTC_9de0d.vcxproj -> C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_9de0d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9de0d.dir\\Debug\\cmTC_9de0d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9de0d.dir\\Debug\\cmTC_9de0d.tlog\\cmTC_9de0d.lastbuildstate".
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_9de0d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.24
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:298 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e958.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:12 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_7e958.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7e958.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_7e958.dir\\Debug\\cmTC_7e958.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7e958.dir\\Debug\\cmTC_7e958.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7e958.dir\\Debug\\cmTC_7e958.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7e958.dir\\Debug\\\\" /Fd"cmTC_7e958.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\gnu_posix_regex.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7e958.dir\\Debug\\\\" /Fd"cmTC_7e958.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\gnu_posix_regex.cpp"
+          gnu_posix_regex.cpp
+        C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\gnu_posix_regex.cpp(1,10): error C1083: Cannot open include file: 'gnuregex.h': No such file or directory [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_7e958.vcxproj]
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_7e958.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_7e958.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\gnu_posix_regex.cpp(1,10): error C1083: Cannot open include file: 'gnuregex.h': No such file or directory [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_7e958.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.44
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:299 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c7f3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:14 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_c7f3b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c7f3b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_c7f3b.dir\\Debug\\cmTC_c7f3b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c7f3b.dir\\Debug\\cmTC_c7f3b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c7f3b.dir\\Debug\\cmTC_c7f3b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c7f3b.dir\\Debug\\\\" /Fd"cmTC_c7f3b.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\posix_regex.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c7f3b.dir\\Debug\\\\" /Fd"cmTC_c7f3b.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\posix_regex.cpp"
+          posix_regex.cpp
+        C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\posix_regex.cpp(1,10): error C1083: Cannot open include file: 'regex.h': No such file or directory [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_c7f3b.vcxproj]
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_c7f3b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_c7f3b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\posix_regex.cpp(1,10): error C1083: Cannot open include file: 'regex.h': No such file or directory [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_c7f3b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.42
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:308 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b0ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:16 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_9b0ed.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9b0ed.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_9b0ed.dir\\Debug\\cmTC_9b0ed.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9b0ed.dir\\Debug\\cmTC_9b0ed.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9b0ed.dir\\Debug\\cmTC_9b0ed.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9b0ed.dir\\Debug\\\\" /Fd"cmTC_9b0ed.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\steady_clock.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9b0ed.dir\\Debug\\\\" /Fd"cmTC_9b0ed.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\steady_clock.cpp"
+          steady_clock.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_9b0ed.exe" /INCREMENTAL /ILK:"cmTC_9b0ed.dir\\Debug\\cmTC_9b0ed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp/Debug/cmTC_9b0ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp/Debug/cmTC_9b0ed.lib" /MACHINE:X64  /machine:x64 cmTC_9b0ed.dir\\Debug\\steady_clock.obj
+          cmTC_9b0ed.vcxproj -> C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_9b0ed.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9b0ed.dir\\Debug\\cmTC_9b0ed.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9b0ed.dir\\Debug\\cmTC_9b0ed.tlog\\cmTC_9b0ed.lastbuildstate".
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_9b0ed.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.84
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-v76hsq"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-v76hsq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-v76hsq'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_87727.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:19 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\cmTC_87727.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_87727.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\Debug\\".
+          Creating directory "cmTC_87727.dir\\Debug\\cmTC_87727.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_87727.dir\\Debug\\cmTC_87727.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_87727.dir\\Debug\\cmTC_87727.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87727.dir\\Debug\\\\" /Fd"cmTC_87727.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87727.dir\\Debug\\\\" /Fd"cmTC_87727.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\src.c"
+          src.c
+        C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\cmTC_87727.vcxproj]
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\cmTC_87727.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\cmTC_87727.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v76hsq\\cmTC_87727.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-gm0w40"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-gm0w40"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-gm0w40'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02a6c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:21 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\cmTC_02a6c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_02a6c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\Debug\\".
+          Creating directory "cmTC_02a6c.dir\\Debug\\cmTC_02a6c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_02a6c.dir\\Debug\\cmTC_02a6c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_02a6c.dir\\Debug\\cmTC_02a6c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02a6c.dir\\Debug\\\\" /Fd"cmTC_02a6c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02a6c.dir\\Debug\\\\" /Fd"cmTC_02a6c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\Debug\\cmTC_02a6c.exe" /INCREMENTAL /ILK:"cmTC_02a6c.dir\\Debug\\cmTC_02a6c.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-gm0w40/Debug/cmTC_02a6c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-gm0w40/Debug/cmTC_02a6c.lib" /MACHINE:X64  /machine:x64 cmTC_02a6c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\cmTC_02a6c.vcxproj]
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\cmTC_02a6c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\cmTC_02a6c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm0w40\\cmTC_02a6c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-nn18w7"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-nn18w7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-nn18w7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e54b2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:23 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\cmTC_e54b2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e54b2.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\Debug\\".
+          Creating directory "cmTC_e54b2.dir\\Debug\\cmTC_e54b2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e54b2.dir\\Debug\\cmTC_e54b2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e54b2.dir\\Debug\\cmTC_e54b2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e54b2.dir\\Debug\\\\" /Fd"cmTC_e54b2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e54b2.dir\\Debug\\\\" /Fd"cmTC_e54b2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\Debug\\cmTC_e54b2.exe" /INCREMENTAL /ILK:"cmTC_e54b2.dir\\Debug\\cmTC_e54b2.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-nn18w7/Debug/cmTC_e54b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeScratch/TryCompile-nn18w7/Debug/cmTC_e54b2.lib" /MACHINE:X64  /machine:x64 cmTC_e54b2.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\cmTC_e54b2.vcxproj]
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\cmTC_e54b2.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\cmTC_e54b2.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nn18w7\\cmTC_e54b2.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.35
+        
+      exitCode: 1
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:312 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W4"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Modules;C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_238bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 9/30/2025 1:40:25 PM.
+        
+        Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_238bf.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_238bf.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_238bf.dir\\Debug\\cmTC_238bf.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_238bf.dir\\Debug\\cmTC_238bf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_238bf.dir\\Debug\\cmTC_238bf.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_238bf.dir\\Debug\\\\" /Fd"cmTC_238bf.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\pthread_affinity.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_238bf.dir\\Debug\\\\" /Fd"cmTC_238bf.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\pthread_affinity.cpp"
+          pthread_affinity.cpp
+        C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\pthread_affinity.cpp(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_238bf.vcxproj]
+        Done Building Project "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_238bf.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_238bf.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\_deps\\benchmark-src\\cmake\\pthread_affinity.cpp(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\kpb20\\OneDrive\\Desktop\\predictive-cache\\build\\CMakeFiles\\CMakeTmp\\cmTC_238bf.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.45
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+...

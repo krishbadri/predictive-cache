@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/Config.cmake.in
+C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/cmake/benchmark.pc.in
+C:/Users/kpb20/OneDrive/Desktop/predictive-cache/build/_deps/benchmark-src/src/CMakeLists.txt
+C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/GNUInstallDirs.cmake
+C:/Users/kpb20/miniconda3/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
