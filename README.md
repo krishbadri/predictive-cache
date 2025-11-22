@@ -1,6 +1,57 @@
-## Predictive Cache (C++17)
+## Predictive Cache (C++17) — High‑Throughput, Predictive, Sharded Caching Library
 
-High-performance, header-only caching primitives with sharding, TinyLFU admission, and an optional Markov-based predictive layer for prefetch/protect. Includes runnable demos and Google Benchmark microbenchmarks.
+High-performance, header-only caching primitives with lock‑sharding, TinyLFU admission control, and an optional per‑shard first‑order Markov predictor for prefetch/protect. Includes runnable demos and a Google Benchmark suite for reproducible evaluation.
+
+### Executive Summary
+- Engineered for high write/read concurrency via lock‑striped sharding.
+- Constant‑time critical operations (get/put/erase) in the steady state.
+- TinyLFU admission using a Count‑Min Sketch to resist cache pollution under skew.
+- Predictive prefetch/protect using per‑shard Markov chains to exploit sequential/Markovian locality.
+- Minimal dependencies, simple integration (headers only), portable (GCC/Clang/MSVC).
+
+### System Design Overview
+
+```
+Client threads
+    │
+    ▼
+Key hashing → shard index (std::hash % N)
+    │
+    ├─► Shard 0: { mutex, TinyLFU‑LRU core, MarkovPredictor }
+    ├─► Shard 1: { mutex, TinyLFU‑LRU core, MarkovPredictor }
+    ├─► ...
+    └─► Shard N‑1: { mutex, TinyLFU‑LRU core, MarkovPredictor }
+
+Core (per shard):
+  - LRU data structure (DLL + hash table) for O(1) recency updates and eviction
+  - Count‑Min Sketch for TinyLFU admission (new ≥ victim ⇒ admit)
+  - Optional Markov predictor: learn prev→cur transitions; prefetch top‑K next keys
+```
+
+### Algorithms, Complexity, and Guarantees
+- LRU get/put/erase: amortized O(1). Eviction touches only tail (LRU key).
+- LFU variant (standalone): O(1) average via frequency buckets and min‑freq tracking.
+- TinyLFU admission: O(d) updates/queries in a d‑row Count‑Min Sketch (default d=4; w=4096).
+  - Standard CMS guarantees: with width `w` and depth `d`, over `N` operations the estimate overcounts by ≤ εN with probability ≥ 1−δ, where ε≈e/w and δ≈exp(−d). This implementation uses fast, fixed seeds and power‑of‑two width for masking.
+- Sharding: O(1) shard index; operations are serialized per shard only.
+- Memory: O(capacity) across shards with light constant factors; CMS adds `w*d*sizeof(uint32_t)` per shard.
+
+### Concurrency and Consistency Model
+- Per‑shard coarse‑grained `std::mutex`. No cross‑shard coordination on single key ops.
+- Single‑key operations are linearizable within their shard; keys hashed to different shards have no transactional semantics across shards.
+- Memory visibility adheres to C++11+ rules; locks provide happens‑before relations around reads/writes.
+- Practical effect: strong ordering for a given key; high throughput under mixed workloads with low contention when keyspace is well‑distributed.
+
+### Predictive Prefetching (Markov)
+- Each shard maintains a first‑order Markov model over keys it serves: counts of `prev → curr` transitions.
+- On `get(k)`: learn the transition, then rank candidates via `P(next | k)`; prefetch top‑K keys meeting configurable count/probability thresholds.
+- Prefetch is realized as inserting default‑constructed placeholder values if absent; this “protects” likely next keys via admission and recency even before the actual request.
+- Aging: `decay_models()` halves counts to forget stale patterns and cap state.
+
+### TinyLFU Admission — Details
+- Count‑Min Sketch tracks approximate frequency per key.
+- On admission, the new key is admitted if `estimate(new) ≥ estimate(victim_LRU)`; otherwise the new key is dropped, improving hit ratio under scanning/low‑reuse workloads.
+- Aging: `decay()` (on the TinyLFU‑LRU wrapper) halves CMS counters to adapt to drift.
 
 ### Highlights
 - **LRUCache**: O(1) get/put via linked-list + hash map.
@@ -9,6 +60,30 @@ High-performance, header-only caching primitives with sharding, TinyLFU admissio
 - **ShardedLRU / ShardedWTinyLFU**: Per-shard locks for concurrency and scale-out.
 - **PredictiveShardedCache**: Adds a lightweight Markov predictor to prefetch/protect likely next keys.
 - **Benchmarks**: Zipf, uniform, and sequential-burst workloads via Google Benchmark.
+
+---
+
+## API Surface (selected)
+
+- `LRUCache<Key,Value>`
+  - `std::optional<Value> get(const Key&)`
+  - `void put(const Key&, const Value&)`
+  - `bool erase(const Key&)`
+  - `bool contains(const Key&) const`
+  - `size_t size() const`, `size_t capacity() const`
+
+- `TinyLFUAdmittingLRU<Key,Value>`
+  - Same API as `LRUCache` plus `void decay()` for periodic aging.
+
+- `ShardedWTinyLFU<Key,Value>` and `ShardedLRU<Key,Value>`
+  - `get/put/erase` as above; internally route to a shard by key hash.
+  - `size_t num_shards() const`
+
+- `PredictiveShardedCache<Key,Value>`
+  - `get/put/erase` as above
+  - `size_t num_shards() const`
+  - `void decay_models()` for predictor aging
+  - `struct Options { size_t shards; size_t prefetch_topk; uint32_t min_trans_count; double min_trans_prob; bool enable_prefetch; }`
 
 ---
 
@@ -88,6 +163,17 @@ Notes:
 
 ---
 
+## Tuning & Sizing Guide
+- **Shards**: start with number of physical cores for mixed read/write workloads; increase if hotspots persist.
+- **Capacity split**: evenly divided across shards; choose a global capacity first, then shard count.
+- **TinyLFU (CMS) width/depth**: defaults (`w=4096, d=4`) are a good balance for most; increase `w` to reduce overestimation under very large keyspaces.
+- **Predictive thresholds**:
+  - `prefetch_topk`: 1–3 for most; higher increases memory pressure with diminishing returns.
+  - `min_trans_count` / `min_trans_prob`: raise to suppress noise; lower to react faster to new patterns.
+- **Aging cadence**: call `decay()` / `decay_models()` periodically (e.g., timer/ops based) to adapt to drift.
+
+---
+
 ## Architecture
 
 ### Core Data Structures
@@ -139,11 +225,25 @@ cd build
 # ./gbench --benchmark_counters_tabular=true
 ```
 
-Example snippet (Zipf, higher is better):
-- `hit_rate` increases with TinyLFU admission under heavy skew.
-- Predictive mode improves sequential‑pattern hits after a short warmup.
+Benchmarking methodology:
+- Warmups ensure predictors and admission structures stabilize before timing.
+- Reported `hit_rate` is computed inside the benchmarks; throughput derives from total ops / wall time.
+- For fair comparisons, capacity, shard count, and keyspace are held constant across policies.
+
+Representative expectations (will vary by machine/workload):
+- TinyLFU generally improves hit rate over plain LRU under Zipf/heavy skew.
+- Predictive mode improves sequential‑pattern hit rates after brief warmup; gains depend on transition strength.
 
 You can adjust capacity, shards, and key-space in the benchmark arguments or source.
+
+---
+
+## Productionization Notes
+- Determinism: benchmarks use fixed RNG seeds; library behavior is deterministic given key sequences.
+- Observability: hook your metrics around call sites; counters such as hits/misses, evictions, admissions, and prefetches are straightforward to expose.
+- Build/tooling: works with MSVC v143 and CMake FetchContent for Google Benchmark; the library itself has no runtime deps.
+- Safety: no exceptions thrown on hot paths except invalid constructor args (e.g., zero shards/capacity); prefer guarding at integration points.
+- Portability: standard C++17 only; no platform intrinsics.
 
 ---
 
